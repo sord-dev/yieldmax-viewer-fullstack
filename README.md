@@ -17,5 +17,5 @@ For a help sheet of the launcher.js options:
 ```
 
 ## Screenshots
-[!image](/screenshots/firefox_HXDerE9iG4.png)
-[!image](/screenshots/firefox_oCmOW0Y3wg.png)
+![image](/screenshots/firefox_HXDerE9iG4.png)
+![image](/screenshots/firefox_oCmOW0Y3wg.png)
