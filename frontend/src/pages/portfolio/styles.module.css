@@ -1,0 +1,10 @@
+.portfolio-page {
+    width: var(--max-width);
+    padding: var(--padding);
+    margin: 12px auto;
+}
+
+.portfolio-stats {
+    display: flex;
+}
+

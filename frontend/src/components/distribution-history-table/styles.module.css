@@ -1,0 +1,31 @@
+.distribution-table {
+    margin-top: 12px;
+    width: 100%;
+    border-collapse: collapse;
+
+    font-size: .9em;
+}
+
+.distribution-table th {
+    background-color: #c2c2c2;
+    font-weight: bold;
+}
+
+.distribution-table th,
+.distribution-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.distribution-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.distribution-table .highlight {
+    background-color: #e0f7fa;
+}
+
+.distribution-table a:hover {
+    text-decoration: underline;
+}

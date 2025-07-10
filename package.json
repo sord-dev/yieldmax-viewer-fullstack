@@ -1,0 +1,27 @@
+{
+  "name": "yieldmax-fullstack-server",
+  "version": "1.0.0",
+  "main": "launcher.js",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:all": "cd backend && npm run build && cd ../frontend && npm run build",
+    "dev": "node launcher.js --dev",
+    "dev:no-open": "node launcher.js --dev --no-open",
+    "start": "node launcher.js --start",
+    "start:no-open": "node launcher.js --start --no-open",
+    "help": "node launcher.js --help"
+  },
+  "keywords": [
+    "yieldmax",
+    "fullstack",
+    "launcher"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Fullstack YieldMax application launcher",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "open": "^8.4.2",
+    "node-fetch": "^2.7.0"
+  }
+}

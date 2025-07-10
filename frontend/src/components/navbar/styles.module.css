@@ -1,0 +1,84 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding);
+    background-color: #D9D9D9;
+    color: black;
+}
+
+.navbar-wrapper {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    gap: 16px;
+}
+
+.navbar .nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.navbar .nav-links ul li {
+    list-style: none;
+}
+
+.navbar .nav-links ul li a:hover {
+    color: var(--color-primary);
+}
+
+.navbar .nav-links ul li.active {
+    color: var(--color-primary);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.navbar .etf-details {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .etf-details .etf-detail {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+
+    background-color: var(--color-primary);
+    padding: 10px 15px;
+    border-radius: 90px;
+
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    text-align: center;
+}
+
+
+.etf-detail-title {
+    font-size: 12px;
+}
+
+.etf-detail-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
